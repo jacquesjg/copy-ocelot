@@ -1,0 +1,218 @@
+.main-header {
+  width: 100%;
+  background-color: #05336b;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box; /* Firefox, other Gecko */
+  box-sizing: border-box; /* Opera/IE 8+ */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-header-items {
+  height: 82px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box; /* Firefox, other Gecko */
+  box-sizing: border-box; /* Opera/IE 8+ */
+}
+
+.twc-logo {
+  margin-right: 18px;
+}
+
+.search-box-text {
+  width: 350px;
+  text-align: center;
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box; /* Firefox, other Gecko */
+  box-sizing: border-box; /* Opera/IE 8+ */
+}
+
+.cf-button {
+  border: none;
+  background-color: Transparent;
+  width: 133px;
+  height: 29px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-right: 24px;
+}
+
+.cf-button-contents {
+  width: 130px;
+  height: 27px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 3px;
+  padding-top: 5px;
+  margin-right: 8px;
+}
+
+.cf-button-text {
+  margin-left: 5px;
+  margin-right: 13px;
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-size: 1rem;
+}
+
+.cf-button:focus {
+  border: solid 2px #1b4de4;
+  border-radius: 7px;
+  box-shadow: 0 0 0 1px white;
+}
+
+.searchbox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 380px;
+  height: 38px;
+  padding-left: 5px;
+  padding-top: 3px;
+  padding-bottom: 5px;
+  padding-right: 8px;
+  margin-left: 249px;
+  margin-right: 227px;
+  border: none;
+  border-radius: 20px;
+  background-color: hsla(0, 0%, 100%, 0.2);
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  color: white;
+  font-size: 1rem;
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box; /* Firefox, other Gecko */
+  box-sizing: border-box; /* Opera/IE 8+ */
+}
+
+.cities {
+  height: 40px;
+  width: 100%;
+  background-color: #3c5c88;
+}
+
+.days {
+  height: 40px;
+  width: 100%;
+  background-color: #061f40;
+}
+
+.contentbg {
+  position: absolute;
+  left: 0px;
+  top: 162px;
+  width: 100%;
+  height: 2310px;
+  background-image: linear-gradient(to bottom, #90b3df, #eaf0f9);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.content {
+  width: 1200px;
+  height: 2250px;
+  border: solid black 1px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box; /* Firefox, other Gecko */
+  box-sizing: border-box; /* Opera/IE 8+ */
+}
+
+.content-left {
+  width: 792px;
+  height: 2250px;
+  border: solid green 1px;
+  margin-right: 13px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.content-right {
+  width: 340px;
+  height: 2250px;
+  border: solid red 1px;
+}
+
+.headlines {
+  width: 787px;
+  height: 714px;
+  background-color: white;
+  box-shadow: 0px 0px 7px 1px #bcbcbc;
+  margin-top: 15px;
+  border-radius: 8px;
+}
+
+.latestnews {
+  width: 792px;
+  height: 312px;
+  background-color: white;
+  box-shadow: 0px 0px 7px 1px #bcbcbc;
+  margin-top: 15px;
+  border-radius: 8px;
+}
+
+.weathertoday {
+  width: 792px;
+  height: 562px;
+  background-color: white;
+  box-shadow: 0px 0px 7px 1px #bcbcbc;
+  margin-top: 15px;
+  border-radius: 8px;
+}
+
+.recommended {
+  width: 792px;
+  height: 291px;
+  background-color: white;
+  box-shadow: 0px 0px 7px 1px #bcbcbc;
+  margin-top: 15px;
+  border-radius: 8px;
+}
+
+.photos {
+  width: 792px;
+  height: 291px;
+  background-color: white;
+  box-shadow: 0px 0px 7px 1px #bcbcbc;
+  margin-top: 15px;
+  border-radius: 8px;
+}
+
+.content-right-contents {
+  width: 340px;
+  height: 380px;
+  background-color: white;
+  box-shadow: 0px 0px 7px 1px #bcbcbc;
+  margin-top: 15px;
+  border-radius: 8px;
+}
+
+.footer {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  left: 0px;
+  top: 2472px;
+}
