@@ -156,6 +156,28 @@
   box-shadow: 0px 0px 7px 1px #bcbcbc;
   margin-top: 15px;
   border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.headlines-left {
+  width: 792px;
+  height: 714px;
+  border: solid 2px green;
+  box-shadow: 0px 0px 7px 1px #bcbcbc;
+  margin-top: 15px;
+  border-radius: 8px;
+}
+
+.headlines-right {
+  width: 792px;
+  height: 714px;
+  border: solid 2px red;
+  background-color: white;
+  box-shadow: 0px 0px 7px 1px #bcbcbc;
+  margin-top: 15px;
+  border-radius: 8px;
 }
 
 .latestnews {
